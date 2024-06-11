@@ -1,7 +1,7 @@
 function EnviarMensaje(){
     var myForm = document.getElementById("form");
 
-    alert("hola");
+    alert("entra");
 
     $.ajax({
         url: "../php/acciones.php",
