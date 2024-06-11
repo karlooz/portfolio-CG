@@ -1084,7 +1084,7 @@
 
           <h3 class="h3 form-title">Contáctame</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="#" class="form" id="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Nombre Completo" required data-form-input>
@@ -1094,7 +1094,7 @@
 
             <textarea name="message" class="form-input" placeholder="Tu Mensaje" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" data-form-btn>
+            <button class="form-btn" type="submit" data-form-btn onclick="EnviarMensaje();">
               <ion-icon name="paper-plane"></ion-icon>
               <span>Enviar Mensaje</span>
             </button>
@@ -1109,15 +1109,11 @@
 
   </main>
 
-
-
-
-
-
   <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/funciones.js"></script>
 
   <!--
     - ionicon link
