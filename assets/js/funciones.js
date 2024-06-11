@@ -1,6 +1,8 @@
-var myForm = document.getElementById("form");
-
 function EnviarMensaje(){
+    var myForm = document.getElementById("form");
+
+    alert("hola");
+
     $.ajax({
         url: "../php/acciones.php",
         method: POST,
